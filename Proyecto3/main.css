@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 15px;
+  height: 100vh;
+}
+
+
+
+nav {
+  background: rgb(92, 168, 97);
+  background: linear-gradient(
+    90deg,
+    rgba(92, 168, 97, 1) 0%,
+    rgba(186, 223, 188, 1) 100%
+  );
+
+  display: flex;
+  align-items: center;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+
+nav img{
+    width: 100px;
+    height: 60px;
+}
+
+nav h1{
+    font-size:50px ;
+    color: rgb(137, 134, 134);
+}
+
+main{
+    display: flex;
+    height: calc(100% - 100px);
+    background-color: rgb(127, 186, 127);
+    border-radius: 12px;
+    padding: 10px;
+}
+
+#Partleft{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#Partleft a{
+    color: rgb(29, 27, 27);
+    font-size: 50px;
+}
+
+#Partleft a:hover{
+    color: rgb(184, 178, 178);
+    font-size: 60px;
+}
+
+#Partright{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    background-image: url(./img/FondoMain.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+#Partright p{
+    font-size: 25px;
+    text-align: center;
+}
+
+#Partright img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid #605B56;
+}
